@@ -29,11 +29,11 @@ This code was used to simulate the actin growth descriptions with explicit profi
 ## Output data structure
 The main codes produce two output files "m.txt" and "pl.txt" which recored the time evolution for the whole time duration and length of filaments during the last one minute of the simulation. 
 ### Format of m.txt:
-Column wise - time | number of filaments | mean filament length in subunits | number of capping bound filaments | number of profilin | number of profilin-actin | number of formin-bound filaments | reaction count | number of actin monomers
+9 column data. Each row represents - time | number of filaments | mean filament length in subunits | number of capping bound filaments | number of profilin | number of profilin-actin | number of formin-bound filaments | reaction count | number of actin monomers
 ### Format of pl.txt:
-Single column data. each row represent length of a filament in subunits.
+Single column data. Each row represents length of a filament in subunits.
 
-These two files, "m.txt" and "pl.txt" are appended for each run and the combined data for the whole ensemble is saved as "P_fr_*formin concentration*_cp_*capping concentration*.txt" and "L_fr_*formin concentration*_cp_*capping concentration*.txt" respectively, e.g., for [FR]=5 nM and [CP]=0 nM the files will be named "P_fr_5_cp_0.txt" and "L_fr_5_cp_0.txt".  
+These two files, "m.txt" and "pl.txt" are appended for each run and the combined data for the whole ensemble is saved as "P\_fr\_*formin concentration*\_cp\_*capping concentration*.txt" and "L\_fr\_*formin concentration*\_cp\_*capping concentration*.txt" respectively, e.g., for [FR]=5 nM and [CP]=0 nM the files will be named "P_fr_5_cp_0.txt" and "L_fr_5_cp_0.txt".  
 
 
 
