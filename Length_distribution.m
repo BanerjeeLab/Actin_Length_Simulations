@@ -31,7 +31,7 @@ bincen=[binw/2:binw:nmax-binw/2];
 
 pp = counts';
 
-fid21=fopen(['data/dist_' '_fr_' char(fr) '_cp_' char(cp)  '.txt'],'w');
+fid21=fopen(['data/dist' '_fr_' char(fr) '_cp_' char(cp)  '.txt'],'w');
 
 for i=1:min((maxL/binw)+20,nmax/binw)
 fprintf(fid21, '%f %f\n', bincen(i), pp(i));
