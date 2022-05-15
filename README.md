@@ -27,7 +27,7 @@ This code was used to simulate the actin growth descriptions with explicit profi
 - The MATLAB codes Average_timeseries.m and Length_distribution.m can be run to generate the time evolution of average quantities and length distribution.
 
 ## Output data structure
-The main codes produce two output files "m.txt" and "pl.txt" which recored the timeevolution and length of filaments during the last one minute of the simulation. 
+The main codes produce two output files "m.txt" and "pl.txt" which recored the time evolution for the whole time duration and length of filaments during the last one minute of the simulation. 
 ### Format of m.txt:
 Column wise - time | number of filaments | mean filament length in subunits | number of capping bound filaments | number of profilin | number of profilin-actin | number of formin-bound filaments | reaction count | number of actin monomers
 ### Format of pl.txt:
