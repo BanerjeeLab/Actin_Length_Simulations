@@ -35,7 +35,8 @@ Single column data. Each row represents length of a filament in subunits.
 
 These two files, "m.txt" and "pl.txt" are appended for each run and the combined data for the whole ensemble is saved as "P\_fr\_*formin concentration*\_cp\_*capping concentration*.txt" and "L\_fr\_*formin concentration*\_cp\_*capping concentration*.txt" respectively, e.g., for [FR]=5 nM and [CP]=0 nM the files will be named "P_fr_5_cp_0.txt" and "L_fr_5_cp_0.txt".  
 
-
+## Codes for analysis
+The two MATLAB codes "Average_timeseries.m" and "Length_distribution.m" read "P\_fr\_*formin concentration*\_cp\_*capping concentration*.txt" and "L\_fr\_*formin concentration*\_cp\_*capping concentration*.txt" to generate timeseries of averaged quantities (such as mean length) and length distribution respectively.
 
 
 
