@@ -33,7 +33,7 @@ Column wise - time | number of filaments | mean filament length in subunits | nu
 ### Format of pl.txt:
 Single column data. each row represent length of a filament in subunits.
 
-These two files, "m.txt" and "pl.txt" are appended for each run and the combined data for the whole ensemble is saved as "P_fr_<formin concentration>_cp_<capping concentration>.txt" and "L_fr_<formin concentration>_cp_<capping concentration>.txt" respectively, e.g., for [FR]=5 nM and [CP]=0 nM the files will be named "P_fr_5_cp_0.txt" and "L_fr_5_cp_0.txt".  
+These two files, "m.txt" and "pl.txt" are appended for each run and the combined data for the whole ensemble is saved as "P_fr_<formin concentration>_cp_<capping concentration>.txt" and "L_fr_*formin concentration*_cp_*capping concentration*.txt" respectively, e.g., for [FR]=5 nM and [CP]=0 nM the files will be named "P_fr_5_cp_0.txt" and "L_fr_5_cp_0.txt".  
 
 
 
